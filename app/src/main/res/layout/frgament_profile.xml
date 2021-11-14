@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFFFDE37"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#7EFFFFFF"
+        android:fontFamily="@font/aqua"
+        android:text="\n\nThis Is Profile Fragment\n\nShinta Ella Fatmasari 20.51.0013\nS1-Sistem Informasi"
+        android:textAlignment="center"
+        android:textColor="#E8FF54F7"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:id="@+id/name"/>
+
+</RelativeLayout>
