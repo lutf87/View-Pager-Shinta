@@ -2,19 +2,27 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0038FF"
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="\n \n \n \n This Is Firends Fragment"
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
         android:fontFamily="@font/aqua"
-        android:textSize="35sp"
-        android:textStyle="bold"
-        android:textColor="#49F0FF"
-        android:background="#80DC3EFF"
-        android:layout_centerInParent="true"
-        android:textAlignment="center"
-        />
+        android:text="My Friend List"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_myfriendslist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
 </RelativeLayout>
